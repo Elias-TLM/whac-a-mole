@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#header {
+  padding: 80px 150px;
+}
+#header .name {
+  font-size: 25px;
+  color: #000000;
+  text-transform: uppercase;
+}
+#navigation .content .items {
+  text-align: center;
+  margin-top:-120px;
+  word-spacing: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#mainpart {
+  padding: 200px 0;
+  text-align: center;
+}
+
+#mainpart .content .start {
+  font-size: 30px;
+  border-radius: 20px;
+  padding: 15px 25px 15px 25px;
+}
