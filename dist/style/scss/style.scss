@@ -2,6 +2,8 @@ html,
 body {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 #header {
@@ -25,8 +27,25 @@ body {
   text-align: center;
 }
 
-#mainpart .content .start {
+#mainpart .content #start {
   font-size: 30px;
   border-radius: 20px;
   padding: 15px 25px 15px 25px;
+}
+
+
+#footer {
+  position: absolute;
+  left: 47%;
+  text-transform: uppercase;
+  color: #000000;
+  bottom: 0;
+
+}
+
+/* INGAME VISIBLE */
+
+
+#game {
+  visibility: hidden;
 }

@@ -9,6 +9,9 @@
     <!--LOCAL CSS-->
     <link rel="stylesheet" href="dist/style/css/style.css">
 
+    <!-- LOCAL JS-->
+    <script src="dist/js/main.js"></script>
+
 
     <title>Whack A Mole</title>
 </head>
@@ -30,7 +33,12 @@
     </div>
     <div id="mainpart">
         <div class="content">
-            <button class="start" onclick="">Start!</button>
+            <button id="start" onclick="startGame();">Start!</button>
+        </div>
+    </div>
+    <div id="game">
+        <div class="content">
+            <img id="mole" src="dist/assets/imgs/images.png" alt="A Picture of a Mole">
         </div>
     </div>
     <div id="footer">
